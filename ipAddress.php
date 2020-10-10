@@ -3,7 +3,8 @@
 include 'class.IPInfoDB.php';
 
 // Load the class
-$ipinfodb = new IPInfoDB('e38c94ec3242fe5e15df0aebebd3ca5e681c9f7a83632241c34a9b6cc365366a');
+$myAPIKey = 'e38c94ec3242fe5e15df0aebebd3ca5e681c9f7a83632241c34a9b6cc365366a';
+$ipinfodb = new IPInfoDB($myAPIKey);
 
 $results = $ipinfodb->getCity('59.91.105.215');
 
