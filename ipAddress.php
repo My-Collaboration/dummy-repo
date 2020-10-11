@@ -3,11 +3,10 @@
 include 'class.IPInfoDB.php';
 
 // Load the class
-$ApiKey = 'e38c94ec3242fe5e15df0aebebd3ca5e681c9f7a83632241c34a9b6cc365366a';
-
+$ApiKey = 'Random API';
+//call to fn
 $ipinfodb = new IPInfoDB(ApiKey);
-
-$results = $ipinfodb->getCity('59.91.105.215');
+$results = $ipinfodb->getCity('Random IP');
 
 // Getting the result
 echo "Results for city query:<br>";
@@ -21,7 +20,7 @@ if (!empty($results) && is_array($results)) {
 Results for city query:
 statusCode : OK
 statusMessage :
-ipAddress : 59.91.105.215
+ipAddress : 59.91.105.215 (My IP)
 countryCode : IN
 countryName : India
 regionName : Karnataka
