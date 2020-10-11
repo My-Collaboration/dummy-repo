@@ -4,9 +4,8 @@ include 'class.IPInfoDB.php';
 
 // Load the class
 $ApiKey = 'Random API';
-
+//call to fn
 $ipinfodb = new IPInfoDB(ApiKey);
-
 $results = $ipinfodb->getCity('Random IP');
 
 // Getting the result
