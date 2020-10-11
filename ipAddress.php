@@ -21,7 +21,7 @@ if (!empty($results) && is_array($results)) {
 Results for city query:
 statusCode : OK
 statusMessage :
-ipAddress : 59.91.105.215
+ipAddress : 59.91.105.215 (My IP)
 countryCode : IN
 countryName : India
 regionName : Karnataka
