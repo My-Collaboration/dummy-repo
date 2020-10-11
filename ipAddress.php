@@ -3,7 +3,7 @@
 include 'class.IPInfoDB.php';
 
 // Load the class
-$ApiKey = 'MyAPI No. 2';
+$ApiKey = 'Another API';
 //call to fn
 $ipinfodb = new IPInfoDB(ApiKey);
 $results = $ipinfodb->getCity('Random IP');
